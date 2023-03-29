@@ -159,3 +159,29 @@ a:active { text-decoration: none; }
     font-size: 18px;
     
 }
+
+
+/*quote container*/
+
+.quote-cont{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px
+
+}
+
+.quote-cont > .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-cont > .autor{
+    margin-left: 600px;
+    font-size: 24px;
+    font-weight: bolder;
+}
