@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*links*/
+a { color: inherit; } 
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+/*header*/
+.header{
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    height: 80px;
+    justify-content: space-evenly;
+
+    
+}
+
+.left-head,
+.right-head{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.header > .left-head .logo{
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+
+.header > .right-head{
+    
+    gap: 50px;
+}
+
+.header-cont{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    height: 400px;
+    
+    
+    
+}
+
+.header-cont > .right-side,
+.left-side{
+    display: flex;
+    align-items: center;
+    flex: 0 0 50%;
+}
+
+.header-cont > .left-side{
+    flex-direction: column;
+    display: flex;
+    height: 500px;
+    padding-top: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+.header-cont > .left-side > .title{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.header-cont > .left-side > .text{
+    
+    padding-left: 50px;
+}
+
+
+
+.header-cont > .left-side > button{
+
+    border: 0;
+    background-color: #3882f6;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: -240px;
+    margin-top: 20px;
+}
+
+
+.header-cont > .right-side > img{
+    padding-bottom: 150px;
+    padding-top: 100px;
+    
+}
+
+/*CARDS CONTENT*/
+
+.cards-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.cards-content > h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.cards-content > .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    
+    
+    
+}
+.cards-content > .cards > .card > .blue-border{
+   
+    border: solid 4px #3882f6;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.cards-content > .cards > .card > .p-card{
+    text-align: center;
+    font-size: 18px;
+    
+}
