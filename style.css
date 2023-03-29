@@ -247,3 +247,13 @@ a:active { text-decoration: none; }
 
 
 /*footer*/
+
+footer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
